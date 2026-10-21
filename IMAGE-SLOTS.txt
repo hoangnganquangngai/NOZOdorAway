@@ -1,0 +1,43 @@
+NOZOdorAway - HUONG DAN THAY ANH
+================================
+
+Tat ca anh co:
+- Comment: <!-- IMAGE: TEN_VI_TRI -->
+- class="editable-image"
+- data-image-slot="TEN_VI_TRI"
+
+Cach thay anh:
+1. Dat anh moi vao thu muc images/
+2. Mo file HTML
+3. Ctrl + F -> tim IMAGE: hoac data-image-slot
+4. Doi src="images/anh-cu.jpg" thanh src="images/anh-moi.jpg"
+
+HERO trang chu:
+Tim data-image-slot="HERO_MAIN"
+Anh hero tu dong full khung nho object-fit: cover.
+
+BLOG:
+Moi bai co 2 anh va deu co data-image-slot rieng.
+Cuoi bai co internal link ve index.html va external link Facebook.
+
+DANH SACH IMAGE SLOT
+--------------------
+blog-1.html .. blog-6.html:
+  - BLOG_N_MAIN, BLOG_N_INLINE (N = 1..6)
+
+blog.html:
+  - BLOG_CARD_1 .. BLOG_CARD_6
+
+gioi-thieu.html:
+  - ABOUT_BRAND
+
+index.html:
+  - HERO_MAIN
+  - HOME_FEATURED (product-1/2/3 cards)
+  - home-care-full (data-image-slot="home-care-full")
+
+san-pham-1.html, san-pham-2.html, san-pham-3.html:
+  - Anh chi tiet tung san pham (xem data-image-slot trong file)
+
+san-pham.html:
+  - PRODUCT_CARD_1, PRODUCT_CARD_2, PRODUCT_CARD_3
